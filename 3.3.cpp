@@ -15,7 +15,7 @@ int main()
 		if (x <= R)
 			y = R - sqrt(R * R + x * x);
 		else
-			if (x > R || x < 2 * R)
+			if (x > R && x < 2 * R)
 				y = sqrt(R * R - (x - R) * (x - R));
 			else
 				y = R;	
